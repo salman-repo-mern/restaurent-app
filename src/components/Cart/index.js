@@ -1,10 +1,7 @@
 import {useContext} from 'react'
-
 import Header from '../Header'
 import CartItem from '../CartItem'
-
 import CartContext from '../../context/CartContext'
-
 import './index.css'
 
 const Cart = () => {
@@ -29,6 +26,7 @@ const Cart = () => {
           type="button"
           className="remove-all-btn text-primary"
           onClick={removeAllCartItems}
+          data-testid="cart"
         >
           Remove All
         </button>

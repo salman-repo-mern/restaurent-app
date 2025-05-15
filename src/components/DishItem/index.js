@@ -28,7 +28,7 @@ const DishItem = ({dishDetails}) => {
   const onAddItemToCart = () => addCartItem({...dishDetails, quantity})
 
   const renderControllerButton = () => (
-    <div className="controller-container d-flex align-items-center bg-success">
+    <div className="controller-container  bg-success">
       <button className="button" type="button" onClick={onDecreaseQuantity}>
         -
       </button>

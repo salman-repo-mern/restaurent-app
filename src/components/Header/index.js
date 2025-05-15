@@ -1,7 +1,6 @@
 import {useContext} from 'react'
 import {Link, withRouter} from 'react-router-dom'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
-import Cookies from 'js-cookie'
 
 import CartContext from '../../context/CartContext'
 
@@ -18,7 +17,7 @@ const Header = () => {
         </button>
       </Link>
       {cartList.length > 0 && (
-        <div className="cart-count-badge d-flex justify-content-center align-items-center">
+        <div className="cart-count-badge ">
           <p className="m-0 cart-count">
             {cartList.length === 0 ? 0 : cartList.length}
           </p>

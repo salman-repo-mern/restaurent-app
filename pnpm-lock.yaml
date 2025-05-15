@@ -2,10 +2,7 @@ dependencies:
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.2
-  bootstrap: 5.3.6
   chalk: 4.1.0
-  cookies: 0.9.1
-  js-cookie: 3.0.5
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
   react-icons: 4.2.0_react@17.0.1
@@ -4713,12 +4710,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==
-  /bootstrap/5.3.6:
-    dev: false
-    peerDependencies:
-      '@popperjs/core': ^2.11.8
-    resolution:
-      integrity: sha512-jX0GAcRzvdwISuvArXn3m7KZscWWFAf1MKBcnzaN02qWMb3jpMoUX4/qgeiGzqyIb4ojulRzs89UCUmGcFSzTA==
   /brace-expansion/1.1.11:
     dependencies:
       balanced-match: 1.0.2
@@ -5453,15 +5444,6 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
-  /cookies/0.9.1:
-    dependencies:
-      depd: 2.0.0
-      keygrip: 1.1.0
-    dev: false
-    engines:
-      node: '>= 0.8'
-    resolution:
-      integrity: sha512-TG2hpqe4ELx54QER/S3HQ9SRVnQnGBtKUz5bLQWtYAQ+o6GpgMs6sYUvaiJjVxb+UXwhRhAEP3m7LbsIZ77Hmw==
   /copy-concurrently/1.0.5:
     dependencies:
       aproba: 1.2.0
@@ -6033,6 +6015,7 @@ packages:
     resolution:
       integrity: sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==
   /depd/2.0.0:
+    dev: true
     engines:
       node: '>= 0.8'
     resolution:
@@ -9284,12 +9267,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-jxTmrvuecVISvKFFhOkjsWRZV7sFqdSUAd1ajOKY+/QE/aLBVstsJ/dX8GczLzwiT6ZEwwmZqtCUHLHHQVzcfA==
-  /js-cookie/3.0.5:
-    dev: false
-    engines:
-      node: '>=14'
-    resolution:
-      integrity: sha512-cEiJEAEoIbWfCZYKWhVwFuvPX1gETRYPw6LlaTKoxD3s2AkXzkCjnp6h0V77ozyqj0jakteJ4YqDJT830+lVGw==
   /js-levenshtein/1.1.6:
     dev: true
     engines:
@@ -9417,14 +9394,6 @@ packages:
       node: '>=4.0'
     resolution:
       integrity: sha512-fX2TVdCViod6HwKEtSWGHs57oFhVfCMwieb9PuRDgjDPh5XeqJiHFFFJCHxU5cnTc3Bu/GRL+kPiFmw8XWOfKw==
-  /keygrip/1.1.0:
-    dependencies:
-      tsscmp: 1.0.6
-    dev: false
-    engines:
-      node: '>= 0.6'
-    resolution:
-      integrity: sha512-iYSchDJ+liQ8iwbSI2QqsQOvqv58eJCEanyJPJi+Khyu8smkcKSFUCbPwzFcL7YVtZ6eONjqRX/38caJ7QjRAQ==
   /killable/1.0.1:
     dev: true
     resolution:
@@ -13778,12 +13747,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==
-  /tsscmp/1.0.6:
-    dev: false
-    engines:
-      node: '>=0.6.x'
-    resolution:
-      integrity: sha512-LxhtAkPDTkVCMQjt2h6eBVY28KCjikZqZfMcC15YBeNjkgUpdCfBu5HoiOTDu86v6smE8yOjyEktJ8hlbANHQA==
   /tsutils/3.21.0:
     dependencies:
       tslib: 1.14.1
@@ -14784,14 +14747,11 @@ specifiers:
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5
   '@testing-library/user-event': 12.6.2
-  bootstrap: 5.3.6
   chalk: 4.1.0
-  cookies: 0.9.1
   eslint-config-airbnb: 18.2.1
   eslint-config-prettier: 8.1.0
   eslint-plugin-prettier: 3.3.1
   husky: 4.3.8
-  js-cookie: 3.0.5
   lint-staged: 10.5.4
   msw: 0.35.0
   npm-run-all: 4.1.5

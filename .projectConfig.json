@@ -1,1 +1,1 @@
-{"ignoredFilesOrFolders":[],"openFiles":[],"fileToBeOpened":""}
+{"ignoredFilesOrFolders":[],"openFiles":["restaurantApp/src/App.js","restaurantApp/package.json","restaurantApp/src/components/Home/index.js","restaurantApp/src/components/Header/index.js","restaurantApp/src/components/Cart/index.js","restaurantApp/src/components/CartItem/index.js","restaurantApp/src/context/CartContext.js","restaurantApp/src/components/DishItem/index.css"],"fileToBeOpened":"restaurantApp/src/components/DishItem/index.js"}

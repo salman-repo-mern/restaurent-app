@@ -16,11 +16,13 @@ const Header = () => {
           <AiOutlineShoppingCart className="cart-icon" />
         </button>
       </Link>
-      {cartList.length > 0 && (
+      {cartList.length > 0 ? (
         <div className="cart-count-badge ">
-          <p className="m-0 cart-count">
-            {cartList.length === 0 ? 0 : cartList.length}
-          </p>
+          <p className="m-0 cart-count">0</p>
+        </div>
+      ) : (
+        <div className="cart-count-badge ">
+          <p className="m-0 cart-count">{cartList.length}</p>
         </div>
       )}
     </div>
